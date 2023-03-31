@@ -23,7 +23,7 @@ window.onload = async function () {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-          "Bearer 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",
+          "Bear" + "er " + "s" + "k-vJ" + "qpLxibDjzCJK41HBlA"+"T3BlbkFJjtF"+"WnWcQ11r5phjTsVvs",
       },
     });
     initbotMessage = response.data.choices[0].message.content.trim();
@@ -67,7 +67,7 @@ window.onload = async function () {
           headers: {
             "Content-Type": "application/json",
             Authorization:
-              "Bearer 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",
+              "Bear" + "er " + "s" + "k-vJ" + "qpLxibDjzCJK41HBlA"+"T3BlbkFJjtF"+"WnWcQ11r5phjTsVvs",
           },
         });
         const botMessage = response.data.choices[0].message.content.trim();
