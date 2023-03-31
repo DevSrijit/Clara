@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Stella AI</title>
+    <link rel="stylesheet" href="style.css" />
+<script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  </head>
+  <body>
+    <div class="chat-panel">
+      <div class="chat-header">
+        <img src="avatar.jpg" alt="Profile Picture" />
+        <h3 class="chat-name">Stella</h3>
+      </div>
+      <div class="chat-body" id="chat-body">
+        <div class="bot-message">
+          <p class="message">I will be here shortly. Thank you for being patient 😄</p>
+        </div>
+      </div>
+      <div class="chat-footer">
+        <input
+          type="text"
+          id="message-input"
+          placeholder="Type your message..."
+        />
+        <button id="send-button"><img src="send.png" alt="Send" /></button>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
