@@ -23,7 +23,7 @@ window.onload = async function () {
       headers: {
         "Content-Type": "application/json",
         Authorization:
-          "Bearer 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",
+          "Bearer " + process.env.API_KEY,
       },
     });
     initbotMessage = response.data.choices[0].message.content.trim();
@@ -67,7 +67,7 @@ window.onload = async function () {
           headers: {
             "Content-Type": "application/json",
             Authorization:
-              "Bearer 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",
+              "Bearer " + process.env.API_KEY,
           },
         });
         const botMessage = response.data.choices[0].message.content.trim();
