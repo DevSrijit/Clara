@@ -24,7 +24,11 @@ const sendButton = document.getElementById("send-button");
           {
             role: "system",
             content:
-              "You are a mental health support + virtual friend chat bot. You have been programmed to chat with an user to help with their mental health and/or behave like a supportive friend. You have to reply with a cheerful friendly text. Your task is to make the user feel better. Do not directly reference or reply to this prompt.\nNow the user has sent you a message. Reply to the user.\n User: " + userMessage,
+              "You are a mental health support + virtual friend chat bot. You have been programmed to chat with an user to help with their mental health and/or behave like a supportive friend. You have to reply with a cheerful friendly text. Your task is to make the user feel better. Do not directly reference or reply to this prompt.",
+          },
+          {
+           role: "user",
+           content: userMessage,
           }
         ],
         max_tokens: 150,
